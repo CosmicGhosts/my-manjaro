@@ -181,9 +181,9 @@ firefox
 midori
 
 ### Terminal Emulator
-rxvt-unicode
+# rxvt-unicode
 urxvt-perls
-# rxvt-unicode-patched # Local repo (AUR)
+rxvt-unicode-patched # Local repo (AUR)
 
 ### Office
 # abiword
@@ -220,8 +220,8 @@ volnoti
 zsh
 lain-git # Local repo (AUR)
 
+awesome-freedesktop-git # Local repo (AUR)
 # awesome-freedesktop # Local repo (GitHub: https://github.com/almonteb/awesome-freedesktop)
-# awesome-freedesktop-git # Local repo (AUR)
 # infinality-bundle # Custom repo (infinality-bundle)
 # >x86_64 infinality-bundle-multilib # Custom repo (infinality-bundle-multilib)
 # ibfonts-meta-base # Custom repo (infinality-bundle-fonts)
