@@ -1,0 +1,242 @@
+######################################################
+### THIS FILE WILL INCLUDE shared/Packages-Desktop ###
+######################################################
+
+# Boss Packages
+
+## Base Packages
+
+### Network
+
+netctl                         # cli Network Profile Management
+networkmanager                 # network manager
+networkmanager-dispatcher-ntpd # network manager with NTP
+openresolv                     # resolve.conf management framework
+blueman                        # bluetooth manager
+gufw                           # firewall
+ufw
+
+#### VPN
+network-manager-applet
+networkmanager-openconnect
+networkmanager-openvpn
+networkmanager-pptp
+networkmanager-vpnc
+
+### Settings
+dconf # app settings
+gconf # app settings # fix qt-theme
+
+### User Data Management
+gnome-keyring   # user to application password management # fix wlan segfault
+accountsservice # user accounts management
+
+### File System
+libgsf       # support ODF and
+libopenraw   # RAW thumbnailing
+
+### ETC
+poppler-glib # PDF extensions
+
+### Media
+#### Sound and Audio
+manjaro-alsa
+manjaro-pulse
+pulseaudio-bluetooth
+pulseaudio-ctl
+pulseaudio-zeroconf
+
+##### UI/UX related
+pavucontrol
+pa-applet
+
+#### Video
+libdvdcss
+
+#### Proprietary / Non-Free
+flashplugin
+
+#### GStreamer
+gst-libav
+gst-plugins-bad
+gst-plugins-base
+gst-plugins-good
+gst-plugins-ugly
+gstreamer0.10-bad-plugins
+gstreamer0.10-base-plugins
+gstreamer0.10-good-plugins
+gstreamer0.10-ugly-plugins
+
+## UI/UX Packages
+gtk2
+lightdm-gtk-greeter
+lightdm-gtk-greeter-settings
+light-locker
+menulibre
+compton
+tumbler
+ffmpegthumbnailer # video file thumbnailer
+dmenu-xft-height  # Local repo (AUR)
+
+### Artwork
+manjaro-artwork
+xcursor-vanilla-dmz-aa
+faenza-cupertino-icon-theme # Local repo (AUR)
+gnome-themes-standard
+plymouth-theme-manjaro-elegant
+mediterraneannight-theme
+# desktop-file-utils
+# gtk-theme-ceti
+# gtk-theme-arc-git # Local Repo (AUR) # amazing theme
+
+## Fonts
+adobe-source-sans-pro-fonts
+cantarell-fonts
+terminus-font
+ttf-bitstream-vera
+ttf-inconsolata
+ttf-indic-otf
+#ttf-dejavu     # See ibfonts-meta-base
+#ttf-liberation # See ibfonts-meta-base
+
+## Printing
+manjaro-printer
+
+## Games
+steam-manjaro
+
+## Applications
+### Base
+manjaro-settings-manager
+# galculator
+galculator-gtk2
+gksu
+udevil
+file-roller
+htop
+
+#### File Manager
+ranger
+spacefm
+
+### Filesystem
+gnome-vfs
+gvfs
+gvfs-afc
+gvfs-afp
+gvfs-gphoto2
+gvfs-mtp
+gvfs-smb
+
+#### Compression / Decompression
+p7zip
+
+#### Partitioning
+gparted
+
+#### Search
+catfish # needed for desktop search
+mlocate
+
+### Chat
+# hexchat
+# pidgin
+weechat
+
+### Email Client
+thunderbird
+mutt
+
+### Media
+vlc
+xfburn
+scrot # screenshot tool
+# open-fuse-iso
+
+#### Music Player
+mpd
+ncmpcpp
+mpv
+cmus
+# guayadeque
+
+### Readers
+qpdfview
+viewnior
+newsbeuter # RSS
+zathura-pdf-poppler # PDF
+
+### Image Editing
+gimp
+sxiv
+sxiv-rifle # Local repo (AUR)
+
+### Text Editors
+emacs
+leafpad
+gvim
+
+### Web Browsers
+chromium
+dwb
+firefox
+midori
+
+### Terminal Emulator
+rxvt-unicode
+urxvt-perls
+# rxvt-unicode-patched # Local repo (AUR)
+
+### Office
+# abiword
+# gnumeric
+# libreoffice-still
+
+### Installers
+thus
+
+## AUR Access
+autoconf
+automake
+binutils
+bison
+fakeroot
+flex
+>i686 gcc
+>multilib gcc-multilib
+libtool
+m4
+make
+patch
+subversion
+yaourt
+
+## Base Packages
+awesome
+vicious
+conky
+clipit
+dex
+oblogout
+volnoti
+zsh
+lain-git # Local repo (AUR)
+
+# awesome-freedesktop # Local repo (GitHub: https://github.com/almonteb/awesome-freedesktop)
+# awesome-freedesktop-git # Local repo (AUR)
+# infinality-bundle # Custom repo (infinality-bundle)
+# >x86_64 infinality-bundle-multilib # Custom repo (infinality-bundle-multilib)
+# ibfonts-meta-base # Custom repo (infinality-bundle-fonts)
+# postinstall # Local repo (Own package)
+# lxpolkit
+
+## Power management
+# laptop-mode-tools
+# xorg-xset
+
+## Environments
+
+### Java
+# jre8-openjdk
+# jre8-openjdk-headless
+# icedtea-web
