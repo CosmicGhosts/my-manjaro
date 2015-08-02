@@ -68,7 +68,6 @@ gstreamer0.10-good-plugins
 gstreamer0.10-ugly-plugins
 
 ## UI/UX Packages
-gtk2
 lightdm-gtk-greeter
 lightdm-gtk-greeter-settings
 light-locker
@@ -108,8 +107,7 @@ steam-manjaro
 ## Applications
 ### Base
 manjaro-settings-manager
-# galculator
-galculator-gtk2
+galculator
 gksu
 udevil
 file-roller
