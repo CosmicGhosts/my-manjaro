@@ -3,3 +3,6 @@
 *.tar.xz
 .kateproject.d
 *.sig
+
+boss/boss-overlay/etc/skel/.config/awesome/
+boss/boss-overlay/etc/skel/.config/_awesome/
