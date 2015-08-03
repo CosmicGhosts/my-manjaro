@@ -1,0 +1,2 @@
+#!/bin/sh
+git clone --recursive https://github.com/seanstrom/awesomewm-config.git boss/boss-overlay/etc/skel/.config/awesome
