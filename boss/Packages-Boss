@@ -68,9 +68,9 @@ gstreamer0.10-good-plugins
 gstreamer0.10-ugly-plugins
 
 ## UI/UX Packages
-lightdm-gtk-greeter
-lightdm-gtk-greeter-settings
-light-locker
+# lightdm-gtk-greeter
+# lightdm-gtk-greeter-settings
+# light-locker
 menulibre
 compton
 tumbler
