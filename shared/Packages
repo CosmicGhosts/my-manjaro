@@ -1,7 +1,21 @@
 ## Base group minus netctl
-bash
-bzip2
+
+### generic
 coreutils
+diffutils
+findutils
+grep
+glibc
+gcc-libs
+>multilib gcc-libs-multilib
+gawk
+
+### file system
+e2fsprogs
+file
+filesystem
+
+### init system
 >openrc cronie-openrc
 >systemd cronie
 >openrc cryptsetup-openrc
@@ -10,17 +24,8 @@ coreutils
 >systemd device-mapper
 >openrc dhcpcd-openrc
 >systemd dhcpcd
-diffutils
-e2fsprogs
-file
-filesystem
-findutils
-gawk
-gcc-libs
->multilib gcc-libs-multilib
+
 gettext
-glibc
-grep
 gzip
 inetutils
 iproute2
@@ -59,6 +64,13 @@ usbutils
 util-linux
 which
 xfsprogs
+
+### shells
+bash
+
+### compression
+bzip2
+
 
 ## Kernel
 KERNEL

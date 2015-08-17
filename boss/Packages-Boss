@@ -7,9 +7,9 @@
 ## Base Packages
 
 ### Network
-
 netctl                         # cli Network Profile Management
 networkmanager                 # network manager
+network-manager-applet         # network applet
 networkmanager-dispatcher-ntpd # network manager with NTP
 openresolv                     # resolve.conf management framework
 blueman                        # bluetooth manager
@@ -17,7 +17,6 @@ gufw                           # firewall
 ufw
 
 #### VPN
-network-manager-applet
 networkmanager-openconnect
 networkmanager-openvpn
 networkmanager-pptp
@@ -39,6 +38,7 @@ libopenraw   # RAW thumbnailing
 poppler-glib # PDF extensions
 
 ### Media
+
 #### Sound and Audio
 manjaro-alsa
 manjaro-pulse
@@ -95,16 +95,14 @@ terminus-font
 ttf-bitstream-vera
 ttf-inconsolata
 ttf-indic-otf
-#ttf-dejavu     # See ibfonts-meta-base
-#ttf-liberation # See ibfonts-meta-base
+# ttf-dejavu     # See ibfonts-meta-base
+# ttf-liberation # See ibfonts-meta-base
 
 ## Printing
 manjaro-printer
 
-## Games
-steam-manjaro
-
 ## Applications
+
 ### Base
 manjaro-settings-manager
 galculator
